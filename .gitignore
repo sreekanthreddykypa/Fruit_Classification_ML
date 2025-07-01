@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+fruit_env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+Fruit_dataset/test1/*
+Fruit_dataset/train1/*
+Fruit_dataset/val1/*
+!Fruit_dataset/test1/.gitkeep
+!Fruit_dataset/train1/.gitkeep
+!Fruit_dataset/val1/.gitkeep
+
+# Models
+results/models/*.pth
+results/models/*.pkl
+*.pth
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiments
+experiments/*/
+wandb/
+mlruns/
+
+# Temporary files
+*.tmp
+*.temp
